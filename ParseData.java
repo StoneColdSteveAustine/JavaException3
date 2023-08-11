@@ -15,9 +15,9 @@ public class ParseData {
                     dataDic.put("sex", i);
                 } else{
                     try {
-                        throw new SexException();
-                    } catch (SexException e) {
-                        e.sexException(i);
+                        throw new SexExceptions();
+                    } catch (SexExceptions e) {
+                        e.sexExceptions(i);
                     }
                 }
             } else if (i.matches("\\d{1,2}\\.\\d{1,2}\\.\\d{4}")) {
