@@ -28,8 +28,8 @@ public class ParseData {
                         Integer.parseInt(arrayDate[1]) > 12 || Integer.parseInt(arrayDate[2]) < 0 ||
                         Integer.parseInt(arrayDate[1]) > 2022) {
                     try {
-                        throw new DateExceptions();
-                    } catch (DateExceptions e) {
+                        throw new B_DateExceptions();
+                    } catch (B_DateExceptions e) {
                         e.dataExceptions(i);
                     }
                 } else {
