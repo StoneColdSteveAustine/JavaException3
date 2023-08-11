@@ -6,7 +6,7 @@ public class DataExceptions extends Exceptions{
 
     public void dataExceptions(String i) {
         System.out.println("Exception: DataNotCorrectFormat");
-        System.out.printf("Ошибка! Неверный формат даты: %s", i);
+        System.out.printf("Ошибка! Неверный формат данных: %s", i);
         System.out.println();
     }
 }
